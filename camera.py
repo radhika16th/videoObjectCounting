@@ -21,7 +21,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 600)
 while True:
     # Reads the next frame from the stream
     ret, frame = cap.read()
-    if frame is None:
+    if not ret:
         continue
 
     # Detect objects
