@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load YOLOv8 model
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov8l.pt')
 
 # No console output
 model.overrides['verbose'] = False
