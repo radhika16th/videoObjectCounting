@@ -12,7 +12,7 @@ model = YOLO('yolov8n.pt')
 model.overrides['verbose'] = False
 
 # YouTube stream
-stream = CamGear(source='https://www.youtube.com/watch?v=57w2gYXjRic', stream_mode=True, logging=False).start()
+stream = CamGear(source='https://www.youtube.com/watch?v=57w2gYXjRic', stream_mode=True, logging=False).start() # type: ignore[attr-defined]
 
 while True:
     # Reads the next frame from the stream
