@@ -12,6 +12,14 @@ Built with Ultralytics YOLOv8 tracking + OpenCV for drawing, and VidGear (CamGea
 - Works with YouTube sources via CamGear or a local file.
 - Shows a running Count overlay.
 
+## Screenshots
+
+#### main.py, counts and labels the objects
+![general](static/general.png)
+
+#### trackerStream, tracks the number of objects crossing the blue line
+![tracker](static/tracker.png)
+
 ## Project Files
 
 main.py - counts the number of objects from a default YouTube video
